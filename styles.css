@@ -1,0 +1,94 @@
+html {
+  background-color: white;
+}
+
+body {
+  margin: 10px;
+  background-color: #01c0fa;
+  font-family: Georgia, serif;
+}
+
+.person-photo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.person-photo h2 {
+  margin-bottom: 5px;
+}
+
+.person-photo img {
+  width: 15%;
+}
+
+.person-photo h2 {
+  color: darkblue;
+}
+
+.achievements {
+  display: flex;
+  flex-direction: column;
+}
+
+.achievements h2 {
+  align-self: center;
+  margin-bottom: 5px;
+}
+
+.awards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.awards h2 {
+  align-self: center;
+}
+
+tr {
+  text-align: center;
+}
+
+/* FOOTER */
+
+.footer-container {
+  margin-top: 50px;
+  color: #002e5f;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(
+    to right,
+    rgba(184, 184, 184, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(184, 184, 184, 1) 100%
+  );
+  border-radius: 5px;
+}
+
+.footer-container-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-container-logos p,
+img {
+  margin: 0 5px;
+}
+
+.footer-container-subscribe {
+  padding: 10px;
+}
+
+.footer-container-subscribe-form input {
+  padding: 5px;
+  border: 2px solid #eee;
+  border-radius: 5px;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+.footer-container-subscribe-form button {
+  border-radius: 5px;
+  color: white;
+}
